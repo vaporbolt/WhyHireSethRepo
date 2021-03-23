@@ -1,0 +1,150 @@
+html
+{
+    background-color: white
+}
+
+body {
+    font-family: arial;
+}
+
+
+h1 {
+    background-color: teal;
+    text-align: center;
+}
+
+
+.hire_button
+{
+    width: 200px;
+    height: 70px;
+    background-color:rgb(17, 13, 13);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.hire_button:after
+{
+    content: "click to here why you should hire me";
+}
+
+  .btn:focus { outline-style: none; }
+
+.topPictures
+{
+    display: flex;
+
+    flex-flow:  row wrap;
+    justify-content: space-evenly;
+
+}
+
+
+.leftPicture
+{
+    min-height: 300px;
+    min-width: 300px;
+    height: 300px;
+    width: 300px;
+}
+
+.leftPicture img
+{
+    
+    width: inherit;
+    height: inherit;
+    text-align: left
+}
+.rightPicture
+{
+    
+    min-width: 300px;
+    min-height: 300px;
+    height: 300px;
+    width: 300px;
+}
+
+.rightPicture img
+{
+    width: inherit;
+    height: inherit;
+    
+}
+
+.top_text
+{
+    max-width: inherit;
+    max-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_text p
+{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size:  100%
+}
+
+.skillSet
+{
+    text-align: center;
+}
+.skillTitle
+{
+    font-weight: bold;
+    text-decoration:  underline;
+}
+
+.Seth_hyped_up
+{
+    font-weight:  bold;
+    font-size:  150%;
+}
+
+.personal_projects
+{
+    text-align: center;
+}
+
+.personal_projects_title
+{
+    font-weight:  bold;
+    text-decoration: underline;
+}
+
+.video_title
+{
+    font-weight: bold;
+}
+
+.strong_seth
+{
+    text-align:  center;
+}
+
+.strong_seth img
+{
+    width:600px;
+    height:600px;
+}
+
+.strong_seth p
+{
+    font-weight:  bold;
+    text-align:  center;
+}
+
+
+
+
